@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/olavurellefsen/flowcore-hugskotid-tenancy-adapter/compare/v1.0.0...v1.0.1) (2024-01-09)
+
+
+### Bug Fixes
+
+* make tenancyid required ([9009ada](https://github.com/olavurellefsen/flowcore-hugskotid-tenancy-adapter/commit/9009ada5738f7d056cbc7e2e5a9102ce0e55e44a))
+
 ## 1.0.0 (2024-01-09)
 
 
