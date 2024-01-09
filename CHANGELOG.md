@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 (2024-01-09)
+
+
+### Features
+
+* enable delete event type ([7e091ad](https://github.com/olavurellefsen/flowcore-hugskotid-tenancy-adapter/commit/7e091ad164117c85bfc71a459cd77703e011e15c))
+
 ## [2.0.0](https://github.com/flowcore-io/nodejs-typescript-transformer-example/compare/v1.3.1...v2.0.0) (2023-10-24)
 
 
