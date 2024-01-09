@@ -14,6 +14,9 @@ interface Input<T = any> {
 export default async function (input: Input) {
   console.info(`Received event ${input.eventId}, with payload ${JSON.stringify(input.payload)} and valid time ${input.validTime}`);
   console.info(`The event type is ${input.eventType} and the tenancy has tenancyid=${input.payload?.tenancyid}`);
+  if (!input.payload.tenancyid) {
+    return null
+  }
   if (input.eventType === "delete") {
     return {
       tenancyid: input.payload.tenancyid
